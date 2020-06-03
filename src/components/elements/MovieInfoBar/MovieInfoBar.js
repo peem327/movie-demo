@@ -12,14 +12,6 @@ const MovieInfoBar = (props) => {
           <FontAweSome className = "fa-time" name ="clock-o" size = "2x"/>
           <span className = "rmdb-movieinfobar-info">Running time : {calcTime(props.time)}</span>
         </div>
-        {/* <div className = "rmdb-movieinfobar-col">
-          <FontAweSome className = "fa-budget" name = "money" size = "2x"/>
-          <span className = "rmdb-movieinfobar-info">budget: {convertMoney(props.budget)} </span>
-        </div>
-        <div className = "rmdb-movieinfobar-col">
-          <FontAweSome className = "fa-revenue" name = "ticket" size = "2x" />
-           <span className = "rmdb-movieinfobar-info">Revenue: {convertMoney(props.revenue)}</span>
-        </div> */}
       </div>
     </div>
       );

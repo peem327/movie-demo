@@ -4,7 +4,6 @@ import {
   POSTER_SIZE,
   BACKDROP_SIZE,
 } from "../../../constants/config";
-import FontAwesome from "react-fontawesome";
 import MovieThumb from "./../MovieThumb";
 import './MovieInfo.css';
 
@@ -35,6 +34,8 @@ const MovieInfo = (props) => {
           {props.directors.map( (element, i) => {
             return <p key={i} className="rmdb-director">{element.name}</p>
           })}
+          <h3>Released</h3>
+          <p>{props.movie.release_date}</p>
         </div>
       </div>
     </div>

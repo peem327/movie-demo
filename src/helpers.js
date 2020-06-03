@@ -4,3 +4,6 @@ export const calcTime = (time) => {
   const mins = time % 60;
   return `${hours}h ${mins}m`;
 }
+
+
+
