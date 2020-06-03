@@ -60,7 +60,6 @@ class Movie extends Component {
             <MovieInfo movie={this.state.movie} directors={this.state.directors} />
             <MovieInfoBar time={this.state.movie.runtime} budget={this.state.movie.budget} revenue={this.state.movie.revenue} />
           </div>
-  
         : null }
         {/* {this.state.actors ?
           <div className="rmdb-movie-grid">
