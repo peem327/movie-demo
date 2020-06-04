@@ -12,7 +12,6 @@ class Movie extends Component {
     directors: [],
     loading: false
   }
-
   componentDidMount() {
     this.setState({ loading: true })
     const endpoint = `${API_URL}movie/${this.props.match.params.movieId}?api_key=${API_KEY}&language=th`;
